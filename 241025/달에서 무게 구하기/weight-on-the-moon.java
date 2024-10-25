@@ -6,7 +6,9 @@ public class Main {
         double result;
         result = weight * gravity;
 
-        System.out.print(weight + " * " + gravity + " = ");
+        System.out.print(weight + " * ");
+        System.out.printf("%.6f", gravity);
+        System.out.print(" = ");
         System.out.printf("%.6f",result);
     }
 }
