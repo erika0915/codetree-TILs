@@ -16,9 +16,29 @@ public class Main {
             else if(c>b && a>c){
                 System.out.print(c);
             }
-            else if (c>b && c>a){
+            else{
                 System.out.print(a);
             }
+        }
+        else if(b>c){
+            if (a>b){
+                System.out.print(b);
+            }
+            else if(b>a && a>c){
+                System.out.print(a);
+            }
+            else 
+                System.out.print(c);
+        }
+        else if(c>a){
+            if (a>b){
+                System.out.print(a);
+            }
+            else if (b>a && b>c){
+                System.out.print(c);
+            }
+            else 
+                System.out.print(b);
         }
     }
 }
