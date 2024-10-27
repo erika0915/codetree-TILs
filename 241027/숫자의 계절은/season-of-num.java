@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if(n>2 && n<5)
+        if(n>2 && n<6)
             System.out.print("Spring");
         else if (n>5 && n<9)
             System.out.print("Summer");
