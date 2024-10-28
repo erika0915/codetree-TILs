@@ -7,14 +7,15 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for (int i = 1; i < b;) {
-            if (i % 2 == 1 && i < b) {
+        for (int i = a; i <= b;) { 
+            if (i % 2 == 1) {
+                System.out.print(i + " ");
                 i *= 2;
             }
-            else if (i % 2 == 0 && i < b) {
+            else  {
+                System.out.print(i + " ");
                 i += 3;
-            }
-            System.out.print(i + " ");
+            }       
         }
     }
 }
