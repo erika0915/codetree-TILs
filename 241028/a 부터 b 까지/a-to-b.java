@@ -7,16 +7,14 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.print(a + " ");
-        for(int i =a; i<b;){
-            if(i%2==0 && i<b){
-                i+=3;
-                System.out.print(i+" ");
+        for (int i = 1; i < b;) {
+            if (i % 2 == 1 && i < b) {
+                i *= 2;
             }
-            else if(i%2==1 && i<b){
-                i*=2;
-                System.out.print(i + " ");
+            else if (i % 2 == 0 && i < b) {
+                i += 3;
             }
+            System.out.print(i + " ");
         }
     }
 }
