@@ -36,6 +36,11 @@ public class Main {
                 cnt1--;
                 cnt2--;
             }
+            if(i%2==0 && i%3==0 && i%12==0){
+                cnt--;
+                cnt1--;
+                cnt2--;
+            }
             if(i%24==0){
                 cnt2++;
             } 
