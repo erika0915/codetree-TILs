@@ -9,11 +9,11 @@ public class Main {
 
         System.out.print(a + " ");
         for(int i =a; i<b;){
-            if(i%2==0){
+            if(i%2==0 && i<b){
                 i+=3;
                 System.out.print(i+" ");
             }
-            else{
+            else if(i%2==1 && i<b){
                 i*=2;
                 System.out.print(i + " ");
             }
