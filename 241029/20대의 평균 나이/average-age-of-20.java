@@ -14,7 +14,7 @@ public class Main {
             sum+=a;
             cnt++;
 
-            if(a>=30){
+            if(a>=30 || a<=10){
                 cnt--;
                 sum-=a;
                 break;
