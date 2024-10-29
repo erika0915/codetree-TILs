@@ -6,15 +6,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int cnt = 0;
         boolean result = false;
 
         for(int i =1; i<= n; i++){
-            if(n%i==0) {
-                result = true;
-            }
+            if(n%i==0)  
+                cnt++; 
         }
 
-        if(result == true)
+        if(cnt==2)
             System.out.print('P');
         else 
             System.out.print('C');
