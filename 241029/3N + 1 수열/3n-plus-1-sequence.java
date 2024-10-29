@@ -8,11 +8,13 @@ public class Main {
         int cnt = 0;
 
         while(true){
-            cnt++;
+            
             if(n%2==0){
+                cnt++;
                 n/=2;
             }
             else{
+                cnt++;
                 n*=3;
                 n+=1;
             }
