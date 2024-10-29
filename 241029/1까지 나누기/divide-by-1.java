@@ -10,7 +10,6 @@ public class Main {
         for(i =1; i<=n; i++){
             n/=i;
             if(n<=1){
-                System.out.print(i);
                 break;
             }
         }
