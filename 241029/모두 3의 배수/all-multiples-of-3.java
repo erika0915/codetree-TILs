@@ -6,24 +6,21 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int cnt = 0;
+        boolean result = true;
 
-        while(true){
+        for(int i =1; i<= 5; i++){
             int n = sc.nextInt();
 
-            for (int i =1; i<= 5; i++){
-                if(n % 3 == 0){
-                    cnt++;
-                }
-            }
-
-            if(cnt ==5){
-                System.out.print(1);
+            if(n%3!=0){
+                result = false;
                 break;
             }
-            else 
-                System.out.print(0);
-                break;
         }
         
+        if(result == false){
+            System.out.print(0);
+        }
+        else 
+            System.out.print(1);
     }
 }
