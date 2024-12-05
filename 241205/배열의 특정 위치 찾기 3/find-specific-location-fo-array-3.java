@@ -7,15 +7,17 @@ public class Main {
 
         int[] arr = new int[100];
         int sum = 0;
+        int count = 0;
 
         for(int i = 0; i<100; i++){
             arr[i]=sc.nextInt();
             if(arr[i]==0){
                 break;
-            }else{
-                sum+=arr[i];
-            }
+            } 
+            count++;
         }
+
+        sum = arr[count-1]+ arr[count-2] + arr[count-3];
         System.out.println(sum);
     }
 }
