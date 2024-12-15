@@ -6,13 +6,18 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int[] array= new int[num];
+        int[] evenArray = new int[num];
+        int count = 0;
 
         for(int i =0; i<num; i++){
             array[i] = sc.nextInt();
             if(array[i]%2==0){
-                System.out.print(array[i] + " ");
-                break;
+                evenArray[count++] = array[i];
             }
+        }
+
+        for(int i =0; i<count; i++){
+            System.out.print(evenArray[i] + " ");
         }
     }
 }
