@@ -5,10 +5,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        int[] array = new int[20];
+        int[] array = new int[100];
         int index = 0;
         
-        while(index < 20){
+        while(index < 100){
             int input= sc.nextInt();
             if(input==0){
                 break;
