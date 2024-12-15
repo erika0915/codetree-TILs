@@ -9,7 +9,7 @@ public class Main {
         
         System.out.print(a + " " + b+ " ");
 
-        for(int i = 3; i< 10; i++){
+        for(int i = 3; i< 11; i++){
             int next = (a + b) % 10;
             a =b;
             b= next;
