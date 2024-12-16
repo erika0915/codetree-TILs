@@ -32,8 +32,6 @@ public class Main {
         System.out.print(count[0] + " " + count[1] + " " + count[2]+ " " + count[3] + " ");
         if(count[0] >=2){
             System.out.print('E');
-        }else{
-            System.out.print(0);
         }
     }
 }
